@@ -168,7 +168,7 @@ SEL_WEBSITE = "span.css-1dwin23"
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/GhostFetch.git
+git clone https://github.com/arpitpatel1364/GhostFetch.git
 cd GhostFetch
 
 # 2. Install dependencies
