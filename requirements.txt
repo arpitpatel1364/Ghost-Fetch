@@ -1,0 +1,8 @@
+greenlet==3.3.2
+numpy==2.4.4
+pandas==3.0.2
+playwright==1.58.0
+pyee==13.0.1
+python-dateutil==2.9.0.post0
+six==1.17.0
+typing_extensions==4.15.0

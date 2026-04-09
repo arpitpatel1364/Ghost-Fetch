@@ -1,0 +1,35 @@
+For one worker 
+# Install once
+pip install playwright
+playwright install chromium
+
+# Test with 4 pages (1 per worker)
+python salone_scraper_fast.py --pages 4
+
+# Full run
+python salone_scraper_fast.py
+
+# Resume if interrupted
+python salone_scraper_fast.py --resume
+
+for 2 workers
+
+# Test first (4 pages = 2 per worker)
+python salone_scraper.py --pages 4
+
+# Full run
+python salone_scraper.py
+
+# If it stops midway
+python salone_scraper.py --resume
+
+
+for one workers
+# Test 2 pages first
+python salone_scraper.py --pages 2
+
+# Full run (~60–75 min for all 109 pages)
+python salone_scraper.py
+
+# Resume if stopped
+python salone_scraper.py --resume

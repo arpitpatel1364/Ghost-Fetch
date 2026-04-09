@@ -1,17 +1,7 @@
 # Ghost-Fetch
 
 > **GhostFetch** is a silent, headless web automation tool built with Playwright and Python. It navigates paginated directories, simulates human interactions like scrolling and clicking, extracts structured data, and exports clean CSV output. Features smart retry logic, resume support, and rate-limit-safe delays for reliable long-run scraping.
-
----
-
-## Output
-
-| Column | Description |
-|--------|-------------|
-| `name` | Company / exhibitor name |
-| `country` | Country of origin |
-| `website` | Official website (`no websites` if none listed) |
-
+ 
 ---
 
 ## Architecture
@@ -223,6 +213,16 @@ GhostFetch/
 
 ---
 
+## Output
+
+| Column | Description |
+|--------|-------------|
+| `name` | Company / exhibitor name |
+| `country` | Country of origin |
+| `website` | Official website (`no websites` if none listed) |
+
+---
+
 ## Requirements
 
 - Python 3.8+
@@ -230,6 +230,15 @@ GhostFetch/
 - Chromium (`playwright install chromium`)
 
 ---
+## Disclaimer
+
+This project was originally built for my own personal use. I've decided to open-source it so others can benefit from it as well.
+
+> ⚠️ **Please note:** This project is provided as-is, without any guarantees of support or maintenance. It was designed around my specific workflow and environment, so it may not work out of the box for your setup.
+
+If you'd like to use this project, **a basic understanding of coding is required** to adapt and personalise it for your own needs. You will likely need to modify configuration files, environment variables, or certain logic to fit your specific use case.
+
+Feel free to fork the repository, explore the code, and tailor it to your workflow. Contributions and improvements are always welcome!
 
 ## License
 
