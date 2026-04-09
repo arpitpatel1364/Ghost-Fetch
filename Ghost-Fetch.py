@@ -12,9 +12,9 @@ INSTALL:
     playwright install chromium
 
 RUN:
-    python salone_scraper.py            # all 109 pages
-    python salone_scraper.py --pages 2  # test 2 pages
-    python salone_scraper.py --resume   # resume after any stop
+    python Ghost-Fetch.py            # all 109 pages
+    python Ghost-Fetch.py --pages 2  # test 2 pages
+    python Ghost-Fetch.py --resume   # resume after any stop
 """
 
 import asyncio, csv, json, argparse, sys, random
